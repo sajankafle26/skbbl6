@@ -1,0 +1,110 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+ body 
+ {
+      font-family: "Quicksand", sans-serif;
+      line-height: 1.7;
+ }
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ ul {
+     list-style: none;
+ }
+ a {
+     text-decoration: none;
+ }
+ h1, h2, h3, h4, h5, h6 {
+     font-weight: bold;
+ }
+ .flex {
+     display: flex;
+ }
+ .jc {
+     justify-content: space-between;
+ }
+ .ai {
+     align-items: center;
+ }
+ .gap {
+     gap: 20px;
+ }
+ .container {
+     width: 1200px;
+     margin: auto;
+ }
+ .p{ 
+    padding: 15px 0;
+}
+.top 
+{
+    background: #DDF4CD;
+}
+nav 
+{
+    background: #024FA1;
+}
+nav a 
+{
+    color: #fff;
+    text-transform: uppercase;
+}
+.green a 
+{
+    background: green;
+    padding: 10px 20px;
+}
+.btn 
+{
+    background: #024FA1;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px 0;
+}
+.greentxt
+{
+    color: green;
+}
+.icon 
+{
+    text-align: center;
+}
+.icon img 
+{
+    width: 70px;
+}
+.visson
+{
+    width: 600px;
+}
+.tc 
+{
+    text-align: center;
+    margin: 40px 0;
+}
+.quote
+{
+    background: url(https://www.skbbl.com.np/frontend/images/greenbg.jpg);
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+}
+.quote-content
+{
+    width: 900px;
+    margin: auto;
+}
+.footertop 
+{
+    width: 100%;
+    display: block;
+    margin-top: 40px;
+}
+footer
+{
+    background: #024FA1;
+    color: #fff;
+}
